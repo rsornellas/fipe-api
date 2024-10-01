@@ -1,0 +1,13 @@
+{
+  "name": "fipe-api-express-v2",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "csv-database": "^0.9.2",
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.5.0"
+  }
+}

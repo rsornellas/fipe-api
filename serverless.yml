@@ -1,0 +1,28 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: fipe-api
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: fipe-api
+service: fipe-api
+
+provider:
+  name: aws
+  stage: prod
+  region: sa-east-1
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    noPrependStageInUrl: true
+
+functions:
+  app:
+    handler: handler.handler
+    events:
+      - http:
+          path: /
+          method: get
+      - http:
+          path: '{proxy+}'
+          method: ANY
