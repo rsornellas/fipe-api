@@ -6,8 +6,8 @@ A **Fipe API** é uma API simples que permite a consulta de informações sobre 
 [Fipe API no RapidAPI](https://rapidapi.com/roapis-roapis-default/api/veiculos-api)
 
 ### **Arquivos CSV:**
-
 Certifique-se de ter os arquivos `marcas.csv`, `modelos.csv`, `modelo_anos.csv` e `veiculos.csv`,  Você pode encontrar esses arquivos disponíveis gratuitamente no repositório. Se você estiver interessado nas bases mais recentes, com as últimas atualizações de valores, entre em contato pelo whatsapp +5513988691415.
+
 ---
 
 ## Funcionalidades
